@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94A094B11E1B666400AE65B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A094B01E1B666400AE65B1 /* AppDelegate.swift */; };
-		94A094B31E1B666400AE65B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A094B21E1B666400AE65B1 /* ViewController.swift */; };
-		94A094B61E1B666400AE65B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A094B41E1B666400AE65B1 /* Main.storyboard */; };
+		94A094B11E1B666400AE65B1 /* RYAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A094B01E1B666400AE65B1 /* RYAppDelegate.swift */; };
+		94A094B31E1B666400AE65B1 /* RYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A094B21E1B666400AE65B1 /* RYViewController.swift */; };
+		94A094B61E1B666400AE65B1 /* RYMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A094B41E1B666400AE65B1 /* RYMain.storyboard */; };
 		94A094B81E1B666400AE65B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A094B71E1B666400AE65B1 /* Assets.xcassets */; };
-		94A094BB1E1B666400AE65B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A094B91E1B666400AE65B1 /* LaunchScreen.storyboard */; };
+		94A094BB1E1B666400AE65B1 /* RYLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A094B91E1B666400AE65B1 /* RYLaunchScreen.storyboard */; };
+		94A094C91E1B66D400AE65B1 /* RYDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A094C41E1B66D400AE65B1 /* RYDatePickerView.swift */; };
+		94A094CA1E1B66D400AE65B1 /* RYDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A094C51E1B66D400AE65B1 /* RYDatePickerView.xib */; };
+		94A094CB1E1B66D400AE65B1 /* RYPickerView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A094C61E1B66D400AE65B1 /* RYPickerView.xcassets */; };
+		94A094CC1E1B66D400AE65B1 /* RYTextPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A094C71E1B66D400AE65B1 /* RYTextPickerView.swift */; };
+		94A094CD1E1B66D400AE65B1 /* RYTextPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A094C81E1B66D400AE65B1 /* RYTextPickerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94A094AD1E1B666400AE65B1 /* RYComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		94A094B01E1B666400AE65B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94A094B21E1B666400AE65B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		94A094B51E1B666400AE65B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94A094B01E1B666400AE65B1 /* RYAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYAppDelegate.swift; sourceTree = "<group>"; };
+		94A094B21E1B666400AE65B1 /* RYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYViewController.swift; sourceTree = "<group>"; };
+		94A094B51E1B666400AE65B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RYMain.storyboard; sourceTree = "<group>"; };
 		94A094B71E1B666400AE65B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		94A094BA1E1B666400AE65B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94A094BA1E1B666400AE65B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RYLaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A094BC1E1B666400AE65B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A094C41E1B66D400AE65B1 /* RYDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYDatePickerView.swift; sourceTree = "<group>"; };
+		94A094C51E1B66D400AE65B1 /* RYDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RYDatePickerView.xib; sourceTree = "<group>"; };
+		94A094C61E1B66D400AE65B1 /* RYPickerView.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RYPickerView.xcassets; sourceTree = "<group>"; };
+		94A094C71E1B66D400AE65B1 /* RYTextPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYTextPickerView.swift; sourceTree = "<group>"; };
+		94A094C81E1B66D400AE65B1 /* RYTextPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RYTextPickerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,35 @@
 		94A094AF1E1B666400AE65B1 /* RYComponent */ = {
 			isa = PBXGroup;
 			children = (
-				94A094B01E1B666400AE65B1 /* AppDelegate.swift */,
-				94A094B21E1B666400AE65B1 /* ViewController.swift */,
-				94A094B41E1B666400AE65B1 /* Main.storyboard */,
+				94A094B01E1B666400AE65B1 /* RYAppDelegate.swift */,
+				94A094B21E1B666400AE65B1 /* RYViewController.swift */,
+				94A094B41E1B666400AE65B1 /* RYMain.storyboard */,
 				94A094B71E1B666400AE65B1 /* Assets.xcassets */,
-				94A094B91E1B666400AE65B1 /* LaunchScreen.storyboard */,
+				94A094B91E1B666400AE65B1 /* RYLaunchScreen.storyboard */,
+				94A094C21E1B66D400AE65B1 /* RYMainViews */,
 				94A094BC1E1B666400AE65B1 /* Info.plist */,
 			);
 			path = RYComponent;
+			sourceTree = "<group>";
+		};
+		94A094C21E1B66D400AE65B1 /* RYMainViews */ = {
+			isa = PBXGroup;
+			children = (
+				94A094C31E1B66D400AE65B1 /* RYPickerView */,
+			);
+			path = RYMainViews;
+			sourceTree = "<group>";
+		};
+		94A094C31E1B66D400AE65B1 /* RYPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				94A094C41E1B66D400AE65B1 /* RYDatePickerView.swift */,
+				94A094C51E1B66D400AE65B1 /* RYDatePickerView.xib */,
+				94A094C61E1B66D400AE65B1 /* RYPickerView.xcassets */,
+				94A094C71E1B66D400AE65B1 /* RYTextPickerView.swift */,
+				94A094C81E1B66D400AE65B1 /* RYTextPickerView.xib */,
+			);
+			path = RYPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +154,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A094BB1E1B666400AE65B1 /* LaunchScreen.storyboard in Resources */,
+				94A094CB1E1B66D400AE65B1 /* RYPickerView.xcassets in Resources */,
+				94A094BB1E1B666400AE65B1 /* RYLaunchScreen.storyboard in Resources */,
+				94A094CD1E1B66D400AE65B1 /* RYTextPickerView.xib in Resources */,
 				94A094B81E1B666400AE65B1 /* Assets.xcassets in Resources */,
-				94A094B61E1B666400AE65B1 /* Main.storyboard in Resources */,
+				94A094B61E1B666400AE65B1 /* RYMain.storyboard in Resources */,
+				94A094CA1E1B66D400AE65B1 /* RYDatePickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,28 +170,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A094B31E1B666400AE65B1 /* ViewController.swift in Sources */,
-				94A094B11E1B666400AE65B1 /* AppDelegate.swift in Sources */,
+				94A094B31E1B666400AE65B1 /* RYViewController.swift in Sources */,
+				94A094B11E1B666400AE65B1 /* RYAppDelegate.swift in Sources */,
+				94A094CC1E1B66D400AE65B1 /* RYTextPickerView.swift in Sources */,
+				94A094C91E1B66D400AE65B1 /* RYDatePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		94A094B41E1B666400AE65B1 /* Main.storyboard */ = {
+		94A094B41E1B666400AE65B1 /* RYMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				94A094B51E1B666400AE65B1 /* Base */,
 			);
-			name = Main.storyboard;
+			name = RYMain.storyboard;
 			sourceTree = "<group>";
 		};
-		94A094B91E1B666400AE65B1 /* LaunchScreen.storyboard */ = {
+		94A094B91E1B666400AE65B1 /* RYLaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				94A094BA1E1B666400AE65B1 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = RYLaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
